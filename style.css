@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,42 +12,51 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(212, 238, 255);
 }
 
-    main{
-        max-width: 1400px;
-    }
+main {
+    max-width: 1400px;
+}
 
-header{
+header {
     display: flex;
     gap: 1rem;
     margin: 2rem 0;
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.25rem;
 }
 
-a:hover{
+a:hover {
     color: #10b981;
     transition: 3s ease-in-out;
 }
 
-.profile_container{
+.profile_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
 }
 
-.avatar{
+.avatar {
     width: 100%;
     max-width: 24rem;
     border-radius: 4px;
     box-shadow: 4px 8px 12px;
     color: #111827;
+}
+
+section {
+    text-align: center;
+}
+
+hr {
+    margin: 2rem 0;
+
 }
